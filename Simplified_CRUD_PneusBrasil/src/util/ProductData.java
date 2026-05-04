@@ -2,10 +2,10 @@ package util;
 
 public class ProductData {
 	
-	public String name;
-	public double price;
-	public int quantity;
-	public int codeBar;
+	private String name;
+	private double price;
+	private int quantity;
+	private int codeBar;
 	
 	public ProductData(String name, double price, int quantity, int codeBar) {
 		super();

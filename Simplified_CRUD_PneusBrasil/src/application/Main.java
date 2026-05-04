@@ -37,6 +37,7 @@ public class Main {
 				System.out.println();
 				
 				data[i] = new ProductData(name,price, quantity, codeBar);	
+				
 			}
 			System.out.println("=========== LISTA DE PRODUTOS ==========");
 			for (int i=0; i < data.length;i++) {
