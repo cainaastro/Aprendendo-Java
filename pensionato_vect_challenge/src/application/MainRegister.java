@@ -11,7 +11,7 @@ public class MainRegister {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
-		RoomsData[] room = new RoomsData[9];
+		RoomsData[] room = new RoomsData[10];
 		System.out.print("How many rooms will be rented? ");
 		int n = sc.nextInt();
 		sc.nextLine();
